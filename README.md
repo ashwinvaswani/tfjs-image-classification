@@ -22,4 +22,7 @@ tensorflowjs_converter --input_format keras \
 ```
 3. Create a simple HTML application and load model, images in it and make predictions using tensorflow.js.
 
+## Sample output video :
+
 ![alt text](https://github.com/ashwinvaswani/tfjs-image-classification/blob/master/assets/output.gif)
+
