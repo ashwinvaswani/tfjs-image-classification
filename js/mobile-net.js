@@ -96,10 +96,11 @@ function loadDemoImage() {
 	document.getElementById("select-file-box").style.display = "table-cell";
 	document.getElementById("predict-list").innerHTML = "";
 
-	base_path = "dataset/test/test_image_"
-	maximum = 4;
-	minimum = 1;
-	var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
-	img_path = base_path + randomnumber + ".jpg"
+	base_path = "dataset/test/tennis.jpeg"
+	// maximum = 4;
+	// minimum = 1;
+	// var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+	// img_path = base_path + randomnumber + ".jpeg"
+	img_path = base_path
 	document.getElementById("test-image").src = img_path;
 }
